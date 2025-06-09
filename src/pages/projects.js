@@ -1,8 +1,10 @@
 import Link from "next/link";
 import { projects } from "@/data/projects"
+import ProjectPage from "@/components/ProjectPage"
 
 export default function Projects() {
     return (
+        
         <div>
             <p className="text-sm">
                 Projects:
@@ -20,5 +22,6 @@ export default function Projects() {
                 ))}
             </ul>
         </div>
+        
     );
 }

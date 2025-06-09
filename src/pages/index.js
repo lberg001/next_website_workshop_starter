@@ -27,8 +27,9 @@ export default function Home() {
               <link rel="icon" href="/favicon.ico" />
           </Head>
           <div>
-              {/*Here we will have the data of our page*/}
-              welcome to my website
+              <h1 className='text-4xl font-bold mb-4'>
+              welcome to my portfolio
+              </h1>
           </div>
       </>
   );
